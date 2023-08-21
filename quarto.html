@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Trey Saddler’s Personal Site</title>
+<title>Trey Saddler’s Personal Site - Quarto Gallery</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,42 +58,11 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Trey Saddler’s Personal Site">
+<meta name="twitter:title" content="Trey Saddler’s Personal Site - Quarto Gallery">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@treysaddler">
 <meta name="twitter:card" content="summary_large_image">
@@ -138,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">My Faves</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./quarto.html" rel="" target="">
+    <a class="nav-link active" href="./quarto.html" rel="" target="" aria-current="page">
  <span class="menu-text">Quarto Gallery</span></a>
   </li>  
   <li class="nav-item compact">
@@ -169,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -177,16 +144,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#recent-posts" id="toc-recent-posts" class="nav-link active" data-scroll-target="#recent-posts">Recent posts</a></li>
+  <li><a href="#why-quarto" id="toc-why-quarto" class="nav-link active" data-scroll-target="#why-quarto">Why Quarto?</a></li>
+  <li><a href="#quarto-creations" id="toc-quarto-creations" class="nav-link" data-scroll-target="#quarto-creations">Quarto Creations</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Trey Saddler’s Personal Site</h1>
+<h1 class="title">Quarto Gallery</h1>
 </div>
 
 
@@ -201,34 +169,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="recent-posts" class="level2">
-<h2 class="anchored" data-anchor-id="recent-posts">Recent posts</h2>
-<div id="listing-posts" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1692497204218" data-listing-reading-time-sort="0">
-<div class="thumbnail">
-<p><a href="./posts/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/index.html">
-<h3 class="no-anchor listing-title">
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/index.html"> </a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a></p>
-
+<section id="why-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="why-quarto">Why Quarto?</h2>
+<p>I profess my love for Quarto at every opportunity. Here are some reasons why I think Quarto is great:</p>
+<ul>
+<li>Quarto is <a href="https://quarto.org/license.html">open source</a> with a GPL-2 license.</li>
+<li>Multiple <a href="https://quarto.org/docs/output-formats/all-formats.html">output formats</a> in a single project
+<ul>
+<li>All of the built in <a href="https://pandoc.org/">Pandoc</a> formats (e.g.&nbsp;HTML, PDF, MS Word, Revealjs, ePub, etc.)</li>
+</ul></li>
+<li>Works with R, Python, Shiny</li>
+</ul>
+</section>
+<section id="quarto-creations" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-creations">Quarto Creations</h2>
+<p>Here are some things that I have made using Quarto.</p>
 
 
 </section>

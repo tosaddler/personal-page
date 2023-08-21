@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Trey Saddler",
+    "section": "",
+    "text": "I am currently a data scientist in the Toxicoinformatics Group of the Predictive Toxicology Branch in the Division of Translational Toxicology at NIEHS (whew…).\nI made a YouTube video about Cytoscape that got a lot of views and I would like to get back to making more videos. I have written a few articles a while ago, and have been on some scientific publications."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Trey Saddler’s Personal Site",
+    "section": "",
+    "text": "No matching items\n\n\n See all"
+  },
+  {
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Trey Saddler’s Personal Site",
+    "section": "",
+    "text": "No matching items\n\n\n See all"
+  },
+  {
+    "objectID": "my-faves/index.html",
+    "href": "my-faves/index.html",
+    "title": "My Faves",
+    "section": "",
+    "text": "I have bookmarked a billion things and tested hundreds of different software and projects. These are the things that I liked enough to write about."
+  },
+  {
+    "objectID": "my-faves/index.html#sites",
+    "href": "my-faves/index.html#sites",
+    "title": "My Faves",
+    "section": "Sites",
+    "text": "Sites\nHere are some sites that I really like.\n\nGitHub Trending - There’s always something interesting on here."
+  },
+  {
+    "objectID": "my-faves/index.html#software",
+    "href": "my-faves/index.html#software",
+    "title": "My Faves",
+    "section": "Software",
+    "text": "Software\nThis is software that I am fond of."
+  },
+  {
+    "objectID": "my-faves/index.html#coursesbooks",
+    "href": "my-faves/index.html#coursesbooks",
+    "title": "My Faves",
+    "section": "Courses/Books",
+    "text": "Courses/Books\nLearning is always fun, and some resources are better than others."
+  },
+  {
+    "objectID": "quarto.html",
+    "href": "quarto.html",
+    "title": "Quarto Gallery",
+    "section": "",
+    "text": "I profess my love for Quarto at every opportunity. Here are some reasons why I think Quarto is great:\n\nQuarto is open source with a GPL-2 license.\nMultiple output formats in a single project\n\nAll of the built in Pandoc formats (e.g. HTML, PDF, MS Word, Revealjs, ePub, etc.)\n\nWorks with R, Python, Shiny"
+  },
+  {
+    "objectID": "quarto.html#why-quarto",
+    "href": "quarto.html#why-quarto",
+    "title": "Quarto Gallery",
+    "section": "",
+    "text": "I profess my love for Quarto at every opportunity. Here are some reasons why I think Quarto is great:\n\nQuarto is open source with a GPL-2 license.\nMultiple output formats in a single project\n\nAll of the built in Pandoc formats (e.g. HTML, PDF, MS Word, Revealjs, ePub, etc.)\n\nWorks with R, Python, Shiny"
+  },
+  {
+    "objectID": "quarto.html#quarto-creations",
+    "href": "quarto.html#quarto-creations",
+    "title": "Quarto Gallery",
+    "section": "Quarto Creations",
+    "text": "Quarto Creations\nHere are some things that I have made using Quarto."
+  }
+]
