@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Trey Saddler’s Personal Site - Quarto Gallery</title>
+<title>Trey Saddler’s Personal Site - Applying backgrounds to all slides (except the title slide) in Quarto reveal.js presentations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,8 +75,8 @@ ga('send', {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Trey Saddler’s Personal Site - Quarto Gallery">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Trey Saddler’s Personal Site - Applying backgrounds to all slides (except the title slide) in Quarto reveal.js presentations">
 <meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@treysaddler">
 <meta name="twitter:card" content="summary_large_image">
@@ -89,7 +89,7 @@ ga('send', {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Trey Saddler’s Personal Site</span>
     </a>
   </div>
@@ -100,7 +100,7 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -109,17 +109,17 @@ ga('send', {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-posts">    
         <li>
-    <a class="dropdown-item" href="./posts/index.html" rel="" target="">
+    <a class="dropdown-item" href="../posts/index.html" rel="" target="">
  <span class="dropdown-text">All posts</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./my-faves/index.html" rel="" target="">
+    <a class="nav-link" href="../my-faves/index.html" rel="" target="">
  <span class="menu-text">My Faves</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./quarto.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../quarto.html" rel="" target="">
  <span class="menu-text">Quarto Gallery</span></a>
   </li>  
   <li class="nav-item compact">
@@ -158,8 +158,8 @@ ga('send', {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-quarto" id="toc-why-quarto" class="nav-link active" data-scroll-target="#why-quarto">Why Quarto?</a></li>
-  <li><a href="#quarto-creations" id="toc-quarto-creations" class="nav-link" data-scroll-target="#quarto-creations">Quarto Creations</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#reveal.js" id="toc-reveal.js" class="nav-link" data-scroll-target="#reveal.js">reveal.js</a></li>
   </ul>
 </nav>
     </div>
@@ -168,7 +168,7 @@ ga('send', {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Quarto Gallery</h1>
+<h1 class="title">Applying backgrounds to all slides (except the title slide) in Quarto reveal.js presentations</h1>
 </div>
 
 
@@ -183,21 +183,15 @@ ga('send', {
 
 </header>
 
-<section id="why-quarto" class="level2">
-<h2 class="anchored" data-anchor-id="why-quarto">Why Quarto?</h2>
-<p>I profess my love for Quarto at every opportunity. Here are some reasons why I think Quarto is great:</p>
-<ul>
-<li>Quarto is <a href="https://quarto.org/license.html">open source</a> with a GPL-2 license.</li>
-<li>Multiple <a href="https://quarto.org/docs/output-formats/all-formats.html">output formats</a> in a single project
-<ul>
-<li>All of the built in <a href="https://pandoc.org/">Pandoc</a> formats (e.g.&nbsp;HTML, PDF, MS Word, Revealjs, ePub, etc.)</li>
-</ul></li>
-<li>Works with R, Python, Shiny</li>
-</ul>
+<p>This was an issue that I fought with for a couple of days. Quarto has options for footers in reveal.js, but not headers. I was trying to recreate a template that we use at <a href="https://www.niehs.nih.gov/research/atniehs/dtt/index.cfm">DTT</a>, and I had previously resorted to some other hacky ways of getting slide headers.</p>
+<p>I decided enough was enough, and I spent the time to figure out how to apply a header (or any other element I suppose) globally to every slide… except for the title slide.</p>
+<section id="quarto" class="level1">
+<h1>Quarto</h1>
+<p>For those reading who aren’t familiar with Quarto, it is a scientific publishing platform that renders a variety of outputs. One of the features that I’ve been playing with the most is reveal.js presentations.</p>
 </section>
-<section id="quarto-creations" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-creations">Quarto Creations</h2>
-<p>Here are some things that I have made using Quarto.</p>
+<section id="reveal.js" class="level1">
+<h1>reveal.js</h1>
+<p>reveal.js has its own native syntax, but using Quarto as a wrapper allows me to tap into the rest of the output ecosystem of Quarto.</p>
 
 
 </section>
@@ -484,5 +478,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
