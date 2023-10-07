@@ -1,1 +1,1 @@
-Sitemap: https://treysaddler.com/sitemap.xml
+Sitemap: http://treysaddler.com/sitemap.xml
