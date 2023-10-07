@@ -1,0 +1,16 @@
+---
+title: "Quarto Gallery"
+---
+
+## Why Quarto?
+
+I profess my love for Quarto at every opportunity. Here are some reasons why I think Quarto is great:
+
+- Quarto is [open source](https://quarto.org/license.html) with a GPL-2 license.
+- Multiple [output formats](https://quarto.org/docs/output-formats/all-formats.html) in a single project
+  - All of the built in [Pandoc](https://pandoc.org/) formats (e.g. HTML, PDF, MS Word, Revealjs, ePub, etc.)
+- Works with R, Python, Shiny
+
+## Quarto Creations
+Here are some things that I have made using Quarto.
+

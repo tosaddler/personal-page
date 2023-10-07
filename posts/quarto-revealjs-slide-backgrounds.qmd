@@ -1,0 +1,17 @@
+---
+title: "Applying backgrounds to all slides (except the title slide) in Quarto reveal.js presentations"
+draft: true
+---
+
+This was an issue that I fought with for a couple of days. Quarto has options for footers in reveal.js, but not headers. I was trying to recreate a template that we use at [DTT](https://www.niehs.nih.gov/research/atniehs/dtt/index.cfm), and I had previously resorted to some other hacky ways of getting slide headers.
+
+I decided enough was enough, and I spent the time to figure out how to apply a header (or any other element I suppose) globally to every slide... except for the title slide.
+
+# Quarto
+
+For those reading who aren't familiar with Quarto, it is a scientific publishing platform that renders a variety of outputs. One of the features that I've been playing with the most is reveal.js presentations.
+
+# reveal.js
+
+reveal.js has its own native syntax, but using Quarto as a wrapper allows me to tap into the rest of the output ecosystem of Quarto.
+

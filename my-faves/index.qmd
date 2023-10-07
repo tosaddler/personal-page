@@ -1,0 +1,19 @@
+---
+title: "My Faves"
+---
+
+I have bookmarked a billion things and tested hundreds of different software and projects. These are the things that I liked enough to write about.
+
+## Sites
+
+Here are some sites that I really like.
+
+- [GitHub Trending](https://github.com/trending) - There's always something interesting on here.
+
+## Software
+
+
+
+## Courses/Books
+
+Learning is always fun, and some resources are better than others.

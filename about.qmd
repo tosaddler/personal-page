@@ -1,0 +1,36 @@
+---
+title: "Trey Saddler"
+comments: false
+image: trey.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:treyosaddler@gmail.com
+    # - icon: file-pdf
+    #   text: Resume
+    #   href: https://beatrizmilz.github.io/resume/index.pdf  
+    - icon: github
+      text: GitHub
+      href: https://github.com/treysaddler
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/TreySaddler
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/treysaddler/
+    - text: "{{< ai orcid >}} ORCiD"
+      href: https://orcid.org/0000-0001-5154-1462
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/c/TreySaddler
+
+format:
+  html:
+    css: https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css
+---
+
+I am currently a [data scientist](https://www.niehs.nih.gov/research/atniehs/labs/ptb/staff/index.cfm) in the [Toxicoinformatics Group](https://www.niehs.nih.gov/research/atniehs/labs/ptb/toxico/index.cfm) of the [Predictive Toxicology Branch](https://www.niehs.nih.gov/research/atniehs/labs/ptb/index.cfm) in the [Division of Translational Toxicology](https://www.niehs.nih.gov/research/atniehs/dtt/index.cfm) at [NIEHS](https://www.niehs.nih.gov/research/atniehs/index.cfm) (whew...).
+
+I made a YouTube video about Cytoscape that got a lot of views and I would like to get back to making more videos. I have written a few articles a while ago, and have been on some scientific publications.

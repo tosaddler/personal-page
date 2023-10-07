@@ -1,0 +1,26 @@
+---
+title: "Trey Saddler's Personal Site"
+listing:
+  - id: posts
+    contents: posts/*.qmd
+    type: default
+    fields: [image, date, title, subtitle, categories, author, reading-time]
+    sort: "date desc"
+    #categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3
+page-layout: full
+title-block-banner: false
+comments: false
+toc: false
+---
+
+Hello, and welcome to my personal site! You can learn more about me on my '[About Page](about.qmd)', read some of [my posts](posts/index.qmd) about random things
+
+## Recent posts
+
+::: {#posts}
+:::
+
+<a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a>

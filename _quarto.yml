@@ -1,5 +1,64 @@
 project:
-  title: "quarto-project"
+  type: website
+  preview:
+    port: 4200
 
+website:
+  page-navigation: true
+  title: "TreySaddler.com"
+  site-url: "https://treysaddler.com"
+  google-analytics: "G-0ZGVESP61C"
+  favicon: "src/blue_logo.png"
+  page-footer:
+    left: "Blog made with 💜 and [Quarto](https://quarto.org/), courtesy of [Beatriz Milz](https://github.com/beatrizmilz/blog-en/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        href: https://github.com/tosaddler/
+      - icon: twitter
+        href: https://twitter.com/TreySaddler
+      - icon: envelope
+        href: mailto:treyosaddler@gmail.com
+  twitter-card:
+    creator: "@treysaddler"
+    card-style: summary_large_image
+  navbar:
+    logo: "src/white_logo.png"
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: Posts
+        menu:
+          - text: All posts
+            href: posts/index.qmd
+      - my-faves/index.qmd
+      - quarto.qmd
+      # - text: Resume
+      #   href: https://beatrizmilz.github.io/resume/index.pdf
+      - icon: github
+        href: https://github.com/tosaddler/personal-page
+      - icon: twitter
+        href: https://twitter.com/TreySaddler
+      - icon: linkedin
+        href: https://www.linkedin.com/in/treysaddler/
+      - icon: youtube
+        href: https://www.youtube.com/c/TreySaddler
+        
+format:
+  html:
+    smooth-scroll: true
+    theme: journal
+    css: styles.css
+    link-external-icon: false
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/www\.treysaddler\.com\/**'
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    code-link: true
 
+# comments:
+#   giscus:
+#     repo: beatrizmilz/blog-en
 
+execute:
+  freeze: true
