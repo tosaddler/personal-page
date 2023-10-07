@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://treysaddler.com/my-faves/index.html</loc>
+    <lastmod>2023-10-07T13:51:51.657Z</lastmod>
+  </url>
+  <url>
     <loc>https://treysaddler.com/about.html</loc>
-    <lastmod>2023-09-16T02:22:38.708Z</lastmod>
+    <lastmod>2023-09-16T16:42:58.718Z</lastmod>
   </url>
   <url>
     <loc>https://treysaddler.com/index.html</loc>
-    <lastmod>2023-09-16T02:22:39.047Z</lastmod>
-  </url>
-  <url>
-    <loc>https://treysaddler.com/my-faves/index.html</loc>
-    <lastmod>2023-09-16T02:22:39.301Z</lastmod>
-  </url>
-  <url>
-    <loc>https://treysaddler.com/posts/quarto-revealjs-slide-backgrounds.html</loc>
-    <lastmod>2023-09-16T02:22:39.796Z</lastmod>
+    <lastmod>2023-10-07T15:56:15.203Z</lastmod>
   </url>
   <url>
     <loc>https://treysaddler.com/quarto.html</loc>
-    <lastmod>2023-09-16T02:22:40.043Z</lastmod>
+    <lastmod>2023-08-20T03:58:30.777Z</lastmod>
   </url>
 </urlset>

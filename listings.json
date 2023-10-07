@@ -2,8 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/index.html",
-      "/posts/quarto-revealjs-slide-backgrounds.html"
+      "/posts/index.html"
     ]
   }
 ]

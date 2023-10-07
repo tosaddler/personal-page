@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Trey Saddler",
-    "section": "",
-    "text": "I am currently a data scientist in the Toxicoinformatics Group of the Predictive Toxicology Branch in the Division of Translational Toxicology at NIEHS (whew…).\nI made a YouTube video about Cytoscape that got a lot of views and I would like to get back to making more videos. I have written a few articles a while ago, and have been on some scientific publications."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Trey Saddler’s Personal Site",
-    "section": "",
-    "text": "1 min\n\n\n\n\n\n\nNo matching items\n\n\n See all"
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Trey Saddler’s Personal Site",
-    "section": "",
-    "text": "1 min\n\n\n\n\n\n\nNo matching items\n\n\n See all"
-  },
-  {
     "objectID": "my-faves/index.html",
     "href": "my-faves/index.html",
     "title": "My Faves",
@@ -39,7 +18,7 @@
     "href": "my-faves/index.html#software",
     "title": "My Faves",
     "section": "Software",
-    "text": "Software\nThis is software that I am fond of."
+    "text": "Software"
   },
   {
     "objectID": "my-faves/index.html#coursesbooks",
@@ -49,11 +28,25 @@
     "text": "Courses/Books\nLearning is always fun, and some resources are better than others."
   },
   {
-    "objectID": "posts/quarto-revealjs-slide-backgrounds.html",
-    "href": "posts/quarto-revealjs-slide-backgrounds.html",
-    "title": "Applying backgrounds to all slides (except the title slide) in Quarto reveal.js presentations",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Trey Saddler",
     "section": "",
-    "text": "This was an issue that I fought with for a couple of days. Quarto has options for footers in reveal.js, but not headers. I was trying to recreate a template that we use at DTT, and I had previously resorted to some other hacky ways of getting slide headers.\nI decided enough was enough, and I spent the time to figure out how to apply a header (or any other element I suppose) globally to every slide… except for the title slide.\n\nQuarto\nFor those reading who aren’t familiar with Quarto, it is a scientific publishing platform that renders a variety of outputs. One of the features that I’ve been playing with the most is reveal.js presentations.\n\n\nreveal.js\nreveal.js has its own native syntax, but using Quarto as a wrapper allows me to tap into the rest of the output ecosystem of Quarto."
+    "text": "I am currently a data scientist in the Toxicoinformatics Group of the Predictive Toxicology Branch in the Division of Translational Toxicology at NIEHS (whew…).\nI made a YouTube video about Cytoscape that got a lot of views and I would like to get back to making more videos. I have written a few articles a while ago, and have been on some scientific publications."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Trey Saddler’s Personal Site",
+    "section": "",
+    "text": "Hello, and welcome to my personal site! You can learn more about me on my ‘About Page’, read some of my posts about random things"
+  },
+  {
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Trey Saddler’s Personal Site",
+    "section": "Recent posts",
+    "text": "Recent posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all"
   },
   {
     "objectID": "quarto.html",
